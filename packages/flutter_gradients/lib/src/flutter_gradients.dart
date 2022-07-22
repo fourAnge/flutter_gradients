@@ -54,7 +54,7 @@ import 'package:flutter_gradients/src/core/flutter_sweep_gradients.dart';
 ///     shape: BoxShape.circle,
 ///     gradient: FlutterGradients.warmFlame(
 ///            type: GradientType.sweep,
-///            AlignmentGeometry center = Alignment.center,
+///             AlignmentGeometry center = Alignment.center,
 ///            startAngle = 0.0,
 ///            endAngle = math.pi * 2,
 ///     ),
@@ -86,7 +86,7 @@ import 'package:flutter_gradients/src/core/flutter_sweep_gradients.dart';
 ///     shape: BoxShape.circle,
 ///     gradient: FlutterGradients.warmFlame(
 ///            type: GradientType.radial,
-///            AlignmentGeometry center = Alignment.center,
+///             AlignmentGeometry center = Alignment.center,
 ///            radius = 0.5,
 ///     ),
 ///   ),
@@ -275,11 +275,11 @@ class FlutterGradients {
   /// Above The Sky
   static Gradient aboveTheSky(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.aboveTheSky(
         center: center,
@@ -300,11 +300,11 @@ class FlutterGradients {
   /// African Field
   static Gradient africanField(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.africanField(
         center: center,
@@ -325,11 +325,11 @@ class FlutterGradients {
   /// Alchemist Lab
   static Gradient alchemistLab(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.alchemistLab(
         center: center,
@@ -350,11 +350,11 @@ class FlutterGradients {
   /// Amour Amour
   static Gradient amourAmour(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.amourAmour(
         center: center,
@@ -375,11 +375,11 @@ class FlutterGradients {
   /// Amy Crisp
   static Gradient amyCrisp(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.amyCrisp(
         center: center,
@@ -400,11 +400,11 @@ class FlutterGradients {
   /// Angel Care
   static Gradient angelCare(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.angelCare(
         center: center,
@@ -425,11 +425,11 @@ class FlutterGradients {
   /// Aqua Guidance
   static Gradient aquaGuidance(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.aquaGuidance(
         center: center,
@@ -450,11 +450,11 @@ class FlutterGradients {
   /// Aqua Splash
   static Gradient aquaSplash(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.aquaSplash(
         center: center,
@@ -475,11 +475,11 @@ class FlutterGradients {
   /// Awesome Pine
   static Gradient awesomePine(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.awesomePine(
         center: center,
@@ -500,11 +500,11 @@ class FlutterGradients {
   /// Big Mango
   static Gradient bigMango(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.bigMango(
         center: center,
@@ -525,11 +525,11 @@ class FlutterGradients {
   /// Black Sea
   static Gradient blackSea(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.blackSea(
         center: center,
@@ -550,11 +550,11 @@ class FlutterGradients {
   /// Blessing
   static Gradient blessing(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.blessing(
         center: center,
@@ -575,11 +575,11 @@ class FlutterGradients {
   /// Burning Spring
   static Gradient burningSpring(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.burningSpring(
         center: center,
@@ -600,11 +600,11 @@ class FlutterGradients {
   /// Cheerful Caramel
   static Gradient cheerfulCaramel(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.cheerfulCaramel(
         center: center,
@@ -625,11 +625,11 @@ class FlutterGradients {
   /// Child Care
   static Gradient childCare(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.childCare(
         center: center,
@@ -650,11 +650,11 @@ class FlutterGradients {
   /// Clean Mirror
   static Gradient cleanMirror(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.cleanMirror(
         center: center,
@@ -675,11 +675,11 @@ class FlutterGradients {
   /// Cloudy Apple
   static Gradient cloudyApple(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.cloudyApple(
         center: center,
@@ -700,11 +700,11 @@ class FlutterGradients {
   /// Cloudy Knoxville
   static Gradient cloudyKnoxville(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.cloudyKnoxville(
         center: center,
@@ -725,11 +725,11 @@ class FlutterGradients {
   /// Cochiti Lake
   static Gradient cochitiLake(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.cochitiLake(
         center: center,
@@ -750,11 +750,11 @@ class FlutterGradients {
   /// Cold Evening
   static Gradient coldEvening(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.coldEvening(
         center: center,
@@ -775,11 +775,11 @@ class FlutterGradients {
   /// Colorful Peach
   static Gradient colorfulPeach(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.colorfulPeach(
         center: center,
@@ -800,11 +800,11 @@ class FlutterGradients {
   /// Confident Cloud
   static Gradient confidentCloud(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.confidentCloud(
         center: center,
@@ -825,11 +825,11 @@ class FlutterGradients {
   /// Crystalline
   static Gradient crystalline(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.crystalline(
         center: center,
@@ -850,11 +850,11 @@ class FlutterGradients {
   /// Crystal River
   static Gradient crystalRiver(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.crystalRiver(
         center: center,
@@ -875,11 +875,11 @@ class FlutterGradients {
   /// Deep Blue
   static Gradient deepBlue(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.deepBlue(
         center: center,
@@ -900,11 +900,11 @@ class FlutterGradients {
   /// Deep Blue
   static Gradient deepBlue2(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.deepBlue2(
         center: center,
@@ -925,11 +925,11 @@ class FlutterGradients {
   /// Deep Relief
   static Gradient deepRelief(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.deepRelief(
         center: center,
@@ -950,11 +950,11 @@ class FlutterGradients {
   /// Dense Water
   static Gradient denseWater(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.denseWater(
         center: center,
@@ -975,11 +975,11 @@ class FlutterGradients {
   /// Desert Hump
   static Gradient desertHump(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.desertHump(
         center: center,
@@ -1000,11 +1000,11 @@ class FlutterGradients {
   /// Dirty Beauty
   static Gradient dirtyBeauty(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.dirtyBeauty(
         center: center,
@@ -1025,11 +1025,11 @@ class FlutterGradients {
   /// Dusty Grass
   static Gradient dustyGrass(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.dustyGrass(
         center: center,
@@ -1050,11 +1050,11 @@ class FlutterGradients {
   /// Eternal Constance
   static Gradient eternalConstance(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.eternalConstance(
         center: center,
@@ -1075,11 +1075,11 @@ class FlutterGradients {
   /// Everlasting Sky
   static Gradient everlastingSky(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.everlastingSky(
         center: center,
@@ -1100,11 +1100,11 @@ class FlutterGradients {
   /// Fabled Sunset
   static Gradient fabledSunset(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.fabledSunset(
         center: center,
@@ -1125,11 +1125,11 @@ class FlutterGradients {
   /// Faraway River
   static Gradient farawayRiver(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.farawayRiver(
         center: center,
@@ -1150,11 +1150,11 @@ class FlutterGradients {
   /// February Ink
   static Gradient februaryInk(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.februaryInk(
         center: center,
@@ -1174,11 +1174,11 @@ class FlutterGradients {
 
   static Gradient findByName(FlutterGradientNames name,
           {GradientType type = GradientType.linear,
-          AlignmentGeometry center = Alignment.center,
-          double radius = 0.5,
+           AlignmentGeometry center = Alignment.center,
+           double radius = 0.5,
           double startAngle = 0.0,
           double endAngle = math.pi * 2,
-          TileMode tileMode = TileMode.repeated}) =>
+           TileMode tileMode = TileMode.repeated}) =>
       _find(names[name.index],
           type: type,
           center: center,
@@ -1190,11 +1190,11 @@ class FlutterGradients {
   /// Fly High
   static Gradient flyHigh(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.flyHigh(
         center: center,
@@ -1215,11 +1215,11 @@ class FlutterGradients {
   /// Flying Lemon
   static Gradient flyingLemon(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.flyingLemon(
         center: center,
@@ -1240,11 +1240,11 @@ class FlutterGradients {
   /// Forest Inei
   static Gradient forestInei(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.forestInei(
         center: center,
@@ -1265,11 +1265,11 @@ class FlutterGradients {
   /// Fresh Milk
   static Gradient freshMilk(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.freshMilk(
         center: center,
@@ -1290,11 +1290,11 @@ class FlutterGradients {
   /// Fresh Oasis
   static Gradient freshOasis(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.freshOasis(
         center: center,
@@ -1315,11 +1315,11 @@ class FlutterGradients {
   /// Frozen Berry
   static Gradient frozenBerry(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.frozenBerry(
         center: center,
@@ -1340,11 +1340,11 @@ class FlutterGradients {
   /// Frozen Dreams
   static Gradient frozenDreams(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.frozenDreams(
         center: center,
@@ -1365,11 +1365,11 @@ class FlutterGradients {
   /// Frozen Heat
   static Gradient frozenHeat(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.frozenHeat(
         center: center,
@@ -1390,11 +1390,11 @@ class FlutterGradients {
   /// Fruit Blend
   static Gradient fruitBlend(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.fruitBlend(
         center: center,
@@ -1415,11 +1415,11 @@ class FlutterGradients {
   /// Gagarin View
   static Gradient gagarinView(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.gagarinView(
         center: center,
@@ -1440,11 +1440,11 @@ class FlutterGradients {
   /// Gentle Care
   static Gradient gentleCare(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.gentleCare(
         center: center,
@@ -1465,11 +1465,11 @@ class FlutterGradients {
   /// Glass Water
   static Gradient glassWater(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.glassWater(
         center: center,
@@ -1490,11 +1490,11 @@ class FlutterGradients {
   /// Grass Shampoo
   static Gradient grassShampoo(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.grassShampoo(
         center: center,
@@ -1515,11 +1515,11 @@ class FlutterGradients {
   /// Great Whale
   static Gradient greatWhale(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.greatWhale(
         center: center,
@@ -1540,11 +1540,11 @@ class FlutterGradients {
   /// Grown Early
   static Gradient grownEarly(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.grownEarly(
         center: center,
@@ -1565,11 +1565,11 @@ class FlutterGradients {
   /// Happy Acid
   static Gradient happyAcid(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.happyAcid(
         center: center,
@@ -1590,11 +1590,11 @@ class FlutterGradients {
   /// Happy Fisher
   static Gradient happyFisher(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.happyFisher(
         center: center,
@@ -1615,11 +1615,11 @@ class FlutterGradients {
   /// Happy Memories
   static Gradient happyMemories(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.happyMemories(
         center: center,
@@ -1640,11 +1640,11 @@ class FlutterGradients {
   /// Happy Unicorn
   static Gradient happyUnicorn(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.happyUnicorn(
         center: center,
@@ -1665,11 +1665,11 @@ class FlutterGradients {
   /// Healthy Water
   static Gradient healthyWater(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.healthyWater(
         center: center,
@@ -1690,11 +1690,11 @@ class FlutterGradients {
   /// Heaven Peach
   static Gradient heavenPeach(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.heavenPeach(
         center: center,
@@ -1715,11 +1715,11 @@ class FlutterGradients {
   /// Heavy Rain
   static Gradient heavyRain(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.heavyRain(
         center: center,
@@ -1740,11 +1740,11 @@ class FlutterGradients {
   /// Hidden Jaguar
   static Gradient hiddenJaguar(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.hiddenJaguar(
         center: center,
@@ -1765,11 +1765,11 @@ class FlutterGradients {
   /// High Flight
   static Gradient highFlight(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.highFlight(
         center: center,
@@ -1790,11 +1790,11 @@ class FlutterGradients {
   /// Itmeo Branding
   static Gradient itmeoBranding(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.itmeoBranding(
         center: center,
@@ -1815,11 +1815,11 @@ class FlutterGradients {
   /// Japan Blush
   static Gradient japanBlush(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.japanBlush(
         center: center,
@@ -1840,11 +1840,11 @@ class FlutterGradients {
   /// Juicy Cake
   static Gradient juicyCake(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.juicyCake(
         center: center,
@@ -1865,11 +1865,11 @@ class FlutterGradients {
   /// Juicy Peach
   static Gradient juicyPeach(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.juicyPeach(
         center: center,
@@ -1890,11 +1890,11 @@ class FlutterGradients {
   /// Jungle Day
   static Gradient jungleDay(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.jungleDay(
         center: center,
@@ -1915,11 +1915,11 @@ class FlutterGradients {
   /// Kind Steel
   static Gradient kindSteel(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.kindSteel(
         center: center,
@@ -1940,11 +1940,11 @@ class FlutterGradients {
   /// Ladoga Bottom
   static Gradient ladogaBottom(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.ladogaBottom(
         center: center,
@@ -1965,11 +1965,11 @@ class FlutterGradients {
   /// Lady Lips
   static Gradient ladyLips(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.ladyLips(
         center: center,
@@ -1990,11 +1990,11 @@ class FlutterGradients {
   /// Landing Aircraft
   static Gradient landingAircraft(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.landingAircraft(
         center: center,
@@ -2015,11 +2015,11 @@ class FlutterGradients {
   /// Le Cocktail
   static Gradient leCocktail(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.leCocktail(
         center: center,
@@ -2040,11 +2040,11 @@ class FlutterGradients {
   /// Lemon Gate
   static Gradient lemonGate(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.lemonGate(
         center: center,
@@ -2065,11 +2065,11 @@ class FlutterGradients {
   /// Light Blue
   static Gradient lightBlue(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.lightBlue(
         center: center,
@@ -2090,11 +2090,11 @@ class FlutterGradients {
   /// Lily Meadow
   static Gradient lilyMeadow(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.lilyMeadow(
         center: center,
@@ -2115,11 +2115,11 @@ class FlutterGradients {
   /// Love Kiss
   static Gradient loveKiss(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.loveKiss(
         center: center,
@@ -2140,11 +2140,11 @@ class FlutterGradients {
   /// Magic Lake
   static Gradient magicLake(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.magicLake(
         center: center,
@@ -2165,11 +2165,11 @@ class FlutterGradients {
   /// Magic Ray
   static Gradient magicRay(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.magicRay(
         center: center,
@@ -2190,11 +2190,11 @@ class FlutterGradients {
   /// Malibu Beach
   static Gradient malibuBeach(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.malibuBeach(
         center: center,
@@ -2215,11 +2215,11 @@ class FlutterGradients {
   /// Marble Wall
   static Gradient marbleWall(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.marbleWall(
         center: center,
@@ -2240,11 +2240,11 @@ class FlutterGradients {
   /// Mars Party
   static Gradient marsParty(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.marsParty(
         center: center,
@@ -2265,11 +2265,11 @@ class FlutterGradients {
   /// Mean Fruit
   static Gradient meanFruit(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.meanFruit(
         center: center,
@@ -2290,11 +2290,11 @@ class FlutterGradients {
   /// Midnight Bloom
   static Gradient midnightBloom(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.midnightBloom(
         center: center,
@@ -2315,11 +2315,11 @@ class FlutterGradients {
   /// Millennium Pine
   static Gradient millenniumPine(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.millenniumPine(
         center: center,
@@ -2340,11 +2340,11 @@ class FlutterGradients {
   /// Mind Crawl
   static Gradient mindCrawl(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.mindCrawl(
         center: center,
@@ -2365,11 +2365,11 @@ class FlutterGradients {
   /// Mixed Hopes
   static Gradient mixedHopes(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.mixedHopes(
         center: center,
@@ -2390,11 +2390,11 @@ class FlutterGradients {
   /// Mole Hall
   static Gradient moleHall(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.moleHall(
         center: center,
@@ -2415,11 +2415,11 @@ class FlutterGradients {
   /// Morning Salad
   static Gradient morningSalad(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.morningSalad(
         center: center,
@@ -2440,11 +2440,11 @@ class FlutterGradients {
   /// Morpheus Den
   static Gradient morpheusDen(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.morpheusDen(
         center: center,
@@ -2465,11 +2465,11 @@ class FlutterGradients {
   /// Mountain Rock
   static Gradient mountainRock(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.mountainRock(
         center: center,
@@ -2490,11 +2490,11 @@ class FlutterGradients {
   /// Near Moon
   static Gradient nearMoon(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.nearMoon(
         center: center,
@@ -2515,11 +2515,11 @@ class FlutterGradients {
   /// Nega
   static Gradient nega(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.nega(
         center: center,
@@ -2540,11 +2540,11 @@ class FlutterGradients {
   /// New Life
   static Gradient newLife(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.newLife(
         center: center,
@@ -2565,11 +2565,11 @@ class FlutterGradients {
   /// New Retrowave
   static Gradient newRetrowave(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.newRetrowave(
         center: center,
@@ -2590,11 +2590,11 @@ class FlutterGradients {
   /// New York
   static Gradient newYork(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.newYork(
         center: center,
@@ -2615,11 +2615,11 @@ class FlutterGradients {
   /// Night Call
   static Gradient nightCall(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.nightCall(
         center: center,
@@ -2640,11 +2640,11 @@ class FlutterGradients {
   /// Night Fade
   static Gradient nightFade(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.nightFade(
         center: center,
@@ -2665,11 +2665,11 @@ class FlutterGradients {
   /// Night Party
   static Gradient nightParty(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.nightParty(
         center: center,
@@ -2690,11 +2690,11 @@ class FlutterGradients {
   /// Night Sky
   static Gradient nightSky(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.nightSky(
         center: center,
@@ -2715,11 +2715,11 @@ class FlutterGradients {
   /// Norse Beauty
   static Gradient norseBeauty(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.norseBeauty(
         center: center,
@@ -2740,11 +2740,11 @@ class FlutterGradients {
   /// North Miracle
   static Gradient northMiracle(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.northMiracle(
         center: center,
@@ -2765,11 +2765,11 @@ class FlutterGradients {
   /// October Silence
   static Gradient octoberSilence(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.octoberSilence(
         center: center,
@@ -2790,11 +2790,11 @@ class FlutterGradients {
   /// Old Hat
   static Gradient oldHat(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.oldHat(
         center: center,
@@ -2815,11 +2815,11 @@ class FlutterGradients {
   /// Orange Juice
   static Gradient orangeJuice(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.orangeJuice(
         center: center,
@@ -2840,11 +2840,11 @@ class FlutterGradients {
   /// Over Sun
   static Gradient overSun(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.overSun(
         center: center,
@@ -2865,11 +2865,11 @@ class FlutterGradients {
   /// Palo Alto
   static Gradient paloAlto(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.paloAlto(
         center: center,
@@ -2890,11 +2890,11 @@ class FlutterGradients {
   /// Party Bliss
   static Gradient partyBliss(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.partyBliss(
         center: center,
@@ -2915,11 +2915,11 @@ class FlutterGradients {
   /// Passionate Bed
   static Gradient passionateBed(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.passionateBed(
         center: center,
@@ -2940,11 +2940,11 @@ class FlutterGradients {
   /// Perfect Blue
   static Gradient perfectBlue(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.perfectBlue(
         center: center,
@@ -2965,11 +2965,11 @@ class FlutterGradients {
   /// Perfect White
   static Gradient perfectWhite(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.perfectWhite(
         center: center,
@@ -2990,11 +2990,11 @@ class FlutterGradients {
   /// Phoenix Start
   static Gradient phoenixStart(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.phoenixStart(
         center: center,
@@ -3015,11 +3015,11 @@ class FlutterGradients {
   /// Plum Bath
   static Gradient plumBath(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.plumBath(
         center: center,
@@ -3040,11 +3040,11 @@ class FlutterGradients {
   /// Plum Plate
   static Gradient plumPlate(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.plumBath(
         center: center,
@@ -3065,11 +3065,11 @@ class FlutterGradients {
   /// Polite Rumors
   static Gradient politeRumors(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.politeRumors(
         center: center,
@@ -3090,11 +3090,11 @@ class FlutterGradients {
   /// Premium Dark
   static Gradient premiumDark(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.premiumDark(
         center: center,
@@ -3115,11 +3115,11 @@ class FlutterGradients {
   /// Premium White
   static Gradient premiumWhite(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.premiumWhite(
         center: center,
@@ -3140,11 +3140,11 @@ class FlutterGradients {
   /// Purple Division
   static Gradient purpleDivision(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.purpleDivision(
         center: center,
@@ -3165,11 +3165,11 @@ class FlutterGradients {
   /// Rainy Ashville
   static Gradient rainyAshville(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.rainyAshville(
         center: center,
@@ -3190,11 +3190,11 @@ class FlutterGradients {
   /// Rare Wind
   static Gradient rareWind(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.rareWind(
         center: center,
@@ -3215,11 +3215,11 @@ class FlutterGradients {
   /// Red Salvation
   static Gradient redSalvation(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.redSalvation(
         center: center,
@@ -3240,11 +3240,11 @@ class FlutterGradients {
   /// Rich Metal
   static Gradient richMetal(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.richMetal(
         center: center,
@@ -3265,11 +3265,11 @@ class FlutterGradients {
   /// Ripe Malinka
   static Gradient ripeMalinka(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.ripeMalinka(
         center: center,
@@ -3290,11 +3290,11 @@ class FlutterGradients {
   /// Risky Concrete
   static Gradient riskyConcrete(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.riskyConcrete(
         center: center,
@@ -3315,11 +3315,11 @@ class FlutterGradients {
   /// River City
   static Gradient riverCity(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.riverCity(
         center: center,
@@ -3340,11 +3340,11 @@ class FlutterGradients {
   /// Royal Garden
   static Gradient royalGarden(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.royalGarden(
         center: center,
@@ -3365,11 +3365,11 @@ class FlutterGradients {
   /// Saint Petersburg
   static Gradient saintPetersburg(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.saintPetersburg(
         center: center,
@@ -3390,11 +3390,11 @@ class FlutterGradients {
   /// Salt Mountain
   static Gradient saltMountain(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.saltMountain(
         center: center,
@@ -3415,11 +3415,11 @@ class FlutterGradients {
   /// Sand Strike
   static Gradient sandStrike(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.sandStrike(
         center: center,
@@ -3440,11 +3440,11 @@ class FlutterGradients {
   /// Sea Lord
   static Gradient seaLord(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.seaLord(
         center: center,
@@ -3465,11 +3465,11 @@ class FlutterGradients {
   /// Seashore
   static Gradient seashore(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.seashore(
         center: center,
@@ -3490,11 +3490,11 @@ class FlutterGradients {
   /// Sea Strike
   static Gradient seaStrike(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.seaStrike(
         center: center,
@@ -3515,11 +3515,11 @@ class FlutterGradients {
   /// Shady Water
   static Gradient shadyWater(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.shadyWater(
         center: center,
@@ -3540,11 +3540,11 @@ class FlutterGradients {
   /// Sharp Blues
   static Gradient sharpBlues(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.sharpBlues(
         center: center,
@@ -3565,11 +3565,11 @@ class FlutterGradients {
   /// Sharpeye Eagle
   static Gradient sharpeyeEagle(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.sharpeyeEagle(
         center: center,
@@ -3590,11 +3590,11 @@ class FlutterGradients {
   /// Shy Rainbow
   static Gradient shyRainbow(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.shyRainbow(
         center: center,
@@ -3615,11 +3615,11 @@ class FlutterGradients {
   /// Sky Glider
   static Gradient skyGlider(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.skyGlider(
         center: center,
@@ -3640,11 +3640,11 @@ class FlutterGradients {
   /// Sleepless Night
   static Gradient sleeplessNight(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.sleeplessNight(
         center: center,
@@ -3665,11 +3665,11 @@ class FlutterGradients {
   /// Smart Indigo
   static Gradient smartIndigo(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.smartIndigo(
         center: center,
@@ -3690,11 +3690,11 @@ class FlutterGradients {
   /// Smiling Rain
   static Gradient smilingRain(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.smilingRain(
         center: center,
@@ -3715,11 +3715,11 @@ class FlutterGradients {
   /// Snow Again
   static Gradient snowAgain(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.snowAgain(
         center: center,
@@ -3740,11 +3740,11 @@ class FlutterGradients {
   /// Soft Cherish
   static Gradient softCherish(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.softCherish(
         center: center,
@@ -3765,11 +3765,11 @@ class FlutterGradients {
   /// Soft Grass
   static Gradient softGrass(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.softGrass(
         center: center,
@@ -3790,11 +3790,11 @@ class FlutterGradients {
   /// Soft Lipstick
   static Gradient softLipstick(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.softLipstick(
         center: center,
@@ -3815,11 +3815,11 @@ class FlutterGradients {
   /// Solid Stone
   static Gradient solidStone(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.solidStone(
         center: center,
@@ -3840,11 +3840,11 @@ class FlutterGradients {
   /// Space Shift
   static Gradient spaceShift(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.spaceShift(
         center: center,
@@ -3865,11 +3865,11 @@ class FlutterGradients {
   /// Spiky Naga
   static Gradient spikyNaga(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.spikyNaga(
         center: center,
@@ -3890,11 +3890,11 @@ class FlutterGradients {
   /// Spring Warmth
   static Gradient springWarmth(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.springWarmth(
         center: center,
@@ -3915,11 +3915,11 @@ class FlutterGradients {
   /// Star Wine
   static Gradient starWine(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.starWine(
         center: center,
@@ -3940,11 +3940,11 @@ class FlutterGradients {
   /// Strict November
   static Gradient strictNovember(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.strictNovember(
         center: center,
@@ -3965,11 +3965,11 @@ class FlutterGradients {
   /// Strong Bliss
   static Gradient strongBliss(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.strongBliss(
         center: center,
@@ -3990,11 +3990,11 @@ class FlutterGradients {
   /// Strong Stick
   static Gradient strongStick(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.strongStick(
         center: center,
@@ -4015,11 +4015,11 @@ class FlutterGradients {
   /// Sugar Lollipop
   static Gradient sugarLollipop(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.sugarLollipop(
         center: center,
@@ -4040,11 +4040,11 @@ class FlutterGradients {
   /// Summer Games
   static Gradient summerGames(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.summerGames(
         center: center,
@@ -4065,11 +4065,11 @@ class FlutterGradients {
   /// Sunny Morning
   static Gradient sunnyMorning(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.sunnyMorning(
         center: center,
@@ -4090,11 +4090,11 @@ class FlutterGradients {
   /// Sun Veggie
   static Gradient sunVeggie(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.sunVeggie(
         center: center,
@@ -4115,11 +4115,11 @@ class FlutterGradients {
   /// Supreme Sky
   static Gradient supremeSky(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.supremeSky(
         center: center,
@@ -4140,11 +4140,11 @@ class FlutterGradients {
   /// Sweet Dessert
   static Gradient sweetDessert(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.sweetDessert(
         center: center,
@@ -4165,11 +4165,11 @@ class FlutterGradients {
   /// Sweet Period
   static Gradient sweetPeriod(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.sweetPeriod(
         center: center,
@@ -4190,11 +4190,11 @@ class FlutterGradients {
   /// Teen Notebook
   static Gradient teenNotebook(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.teenNotebook(
         center: center,
@@ -4215,11 +4215,11 @@ class FlutterGradients {
   /// Teen Party
   static Gradient teenParty(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.teenParty(
         center: center,
@@ -4240,11 +4240,11 @@ class FlutterGradients {
   /// Tempting Azure
   static Gradient temptingAzure(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.temptingAzure(
         center: center,
@@ -4265,11 +4265,11 @@ class FlutterGradients {
   /// True Sunset
   static Gradient trueSunset(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.trueSunset(
         center: center,
@@ -4290,11 +4290,11 @@ class FlutterGradients {
   /// Vicious Stance
   static Gradient viciousStance(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.viciousStance(
         center: center,
@@ -4315,11 +4315,11 @@ class FlutterGradients {
   /// Warm Flame
   static Gradient warmFlame(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.warmFlame(
         center: center,
@@ -4340,11 +4340,11 @@ class FlutterGradients {
   /// Wide Matrix
   static Gradient wideMatrix(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.wideMatrix(
         center: center,
@@ -4365,11 +4365,11 @@ class FlutterGradients {
   /// Wild Apple
   static Gradient wildApple(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.wildApple(
         center: center,
@@ -4390,11 +4390,11 @@ class FlutterGradients {
   /// Winter Neva
   static Gradient winterNeva(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.winterNeva(
         center: center,
@@ -4415,11 +4415,11 @@ class FlutterGradients {
   /// Witch Dance
   static Gradient witchDance(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.witchDance(
         center: center,
@@ -4440,11 +4440,11 @@ class FlutterGradients {
   /// Young Grass
   static Gradient youngGrass(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.youngGrass(
         center: center,
@@ -4465,11 +4465,11 @@ class FlutterGradients {
   /// Young Passion
   static Gradient youngPassion(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.youngPassion(
         center: center,
@@ -4490,11 +4490,11 @@ class FlutterGradients {
   /// Zeus Miracle
   static Gradient zeusMiracle(
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     if (type == GradientType.radial)
       return FlutterRadialGradients.zeusMiracle(
         center: center,
@@ -4514,11 +4514,11 @@ class FlutterGradients {
 
   static Gradient _find(String name,
       {GradientType type = GradientType.linear,
-      AlignmentGeometry center = Alignment.center,
-      double radius = 0.5,
+       AlignmentGeometry center = Alignment.center,
+       double radius = 0.5,
       double startAngle = 0.0,
       double endAngle = math.pi * 2,
-      TileMode tileMode = TileMode.repeated}) {
+       TileMode tileMode = TileMode.repeated}) {
     switch (name) {
       case "Warm Flame":
         return warmFlame(

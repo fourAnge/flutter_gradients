@@ -1,16 +1,12 @@
 name: flutter_gradients
 description: A curated collection of awesome gradients made in Dart for Flutter.
-version: 1.0.0+3
-
-authors:
- - Flutter Community <community@flutter.zone>
- - Jonathan Monga <jmonga98@gmail.com>
+version: 1.0.0+4
 
 homepage: https://github.com/fluttercommunity/flutter_gradients
 maintainer: Jonathan Monga (@JonathanMonga)
 
 environment:
-  sdk: ">=2.6.0 <3.0.0"
+  sdk: ">=2.17.1 <3.0.0"
 
 dependencies:
   flutter:
